@@ -1,9 +1,9 @@
 const photos = [
-  { src: "img/van1.jpg", title: "Khoảnh khắc đầu tiên" },
-  { src: "img/van2.jpg", title: "Nụ cười xinh nhất" },
-  { src: "img/van3.jpg", title: "Một ngày thật vui" },
-  { src: "img/van4.jpg", title: "Kỷ niệm đáng yêu" },
-  { src: "img/van5.jpg", title: "Tuổi mới rực rỡ" }
+  { src: "img/thu1.jpg", title: "Khoảnh khắc đầu tiên" },
+  { src: "img/thu2.jpg", title: "Nụ cười xinh nhất" },
+  { src: "img/thu3.jpg", title: "Một ngày thật vui" },
+  { src: "img/thu4.jpg", title: "Kỷ niệm đáng yêu" },
+  { src: "img/thu5.jpg", title: "Tuổi mới rực rỡ" }
 ];
 
 // Nếu bạn có ảnh thật, đổi thành như sau:
@@ -69,7 +69,7 @@ startAutoSlide();
 
 // Hiệu ứng gõ chữ
 const typingText = document.getElementById("typingText");
-const message = "Chúc H.Vân tuổi mới thật nhiều niềm vui, luôn xênh gái, luôn may mắn và được yêu thương thật nhiều nha!";
+const message = "Chúc Minh Thư tuổi mới thật nhiều niềm vui, luôn xênh gái, luôn may mắn và được yêu thương thật nhiều nha!";
 let charIndex = 0;
 
 function typeWriter() {
